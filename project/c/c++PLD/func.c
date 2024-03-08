@@ -4,7 +4,7 @@
 int main(void)
 {
     int var = 2030;
-    printf("%d", var);
+    printf("your variable is %d\n", var);
 
     return(0);
 }
