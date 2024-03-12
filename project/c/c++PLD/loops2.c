@@ -1,6 +1,6 @@
 #include <stdio.h>
 
-// A function that prints a fibonacci series up to 100
+// A function that prints a fibonacci series
 
 int main(void)
 {
@@ -12,8 +12,6 @@ int main(void)
 
     while (count <= 50)
     {
-        //printf("%lu, ", first);
-        //printf("%lu, ", second);
         printf("%lu, ", next);
 
         first = second;
