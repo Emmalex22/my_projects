@@ -10,7 +10,7 @@ int main(void)
     printf("Enter Username: \n");
     scanf("%s", username);
     printf("Enter Password: \n");
-    scanf("%19s", password);
+    scanf("%s", password);
     if (strcmp(username,"gentlesoul") == 0 && strcmp(password, "pteridophyta") == 0)
         printf("login successfull\n");
     else if (strcmp(username, "gentlesoul") == 0)
