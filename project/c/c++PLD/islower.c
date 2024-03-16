@@ -6,13 +6,11 @@ int _islower(int c)
 {
 	if (c >= 'A' && c <= 'Z')
 	{
-		printf("This is an upercase character\n");
-		return(1);
+		return (0);
 	}
 	else
 	{
-		printf("This is a lowercase character\n");
-		return(0);
+		return (1);
 	}
 }
 /**
