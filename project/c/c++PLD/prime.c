@@ -9,6 +9,7 @@ int main(void)
 	prime_checker(0);
 	return (0);
 }
+// A function that checks if a number x is a prime number or not.
 void prime_checker(int x)
 {
 	int i;
